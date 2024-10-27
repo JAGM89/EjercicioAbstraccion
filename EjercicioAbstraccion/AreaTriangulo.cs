@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace EjercicioAbstraccion
 {
@@ -19,9 +15,6 @@ namespace EjercicioAbstraccion
             this.altura = altura;
         }
 
-        public AreaTriangulo()
-        {
-        }
 
         public override void Calcular()
         {
@@ -30,7 +23,7 @@ namespace EjercicioAbstraccion
 
         public override void Imprimir()
         {
-            Console.WriteLine($"El area del triangulo es: {Area}");
+            Console.WriteLine($"El area del triangulo es:  {Area} centimetros");
         }
     }
 }

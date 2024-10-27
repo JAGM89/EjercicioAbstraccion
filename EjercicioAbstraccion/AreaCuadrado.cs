@@ -21,7 +21,7 @@ namespace EjercicioAbstraccion
 
         public override void Imprimir()
         {
-            Console.WriteLine($"El área del cuadrado es: {Area}");
+            Console.WriteLine($"El área del cuadrado es: {Area} centimetros");
         }
     }
 }
